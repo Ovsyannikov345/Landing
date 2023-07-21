@@ -662,3 +662,65 @@ h1 {
 .our-skills .image-container > img {
     position: absolute;
 }
+
+.fun-facts {
+    max-width: 1200px;
+    margin-top: 150px;
+    padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 72px;
+}
+
+.fun-facts-header {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.facts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.fact > img {
+    width: 65px;
+    height: 65px;
+}
+
+.fact-info {
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.fact-info > h3 {
+    color: #FFF;
+    font-size: 46px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.fact-info > p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 20px;
+    line-height: 24px;
+}
