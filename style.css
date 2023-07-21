@@ -168,8 +168,9 @@ h1 {
 
 .intro {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .intro-video {
@@ -200,4 +201,24 @@ h1 {
     width: 56px;
     height: 100px;
     background-color: rgba(255, 255, 255, 0);
+}
+
+.intro-video-order {
+    display: flex;
+    padding: 10px 0px 19px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.intro-video-order .square-actual {
+    width: 11px;
+    height: 11px;
+    background: #FFF;
+}
+
+.intro-video-order .square {
+    width: 11px;
+    height: 11px;
+    background: rgba(255, 255, 255, 0.40);
 }
