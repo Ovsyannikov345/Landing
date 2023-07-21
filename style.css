@@ -12,6 +12,7 @@ body {
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -564,4 +565,100 @@ h1 {
     line-height: 20px;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+
+.our-skills {
+    margin-top: 150px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.skills-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.skills-container {
+    padding-right: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.parameters {
+    max-width: 495px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.parameter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.parameter-name {
+    display: flex;
+    width: 495px;
+    height: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.parameter-name span {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.parameter-underline {
+    background: #C6100F;
+    height: 2px;
+}
+
+#underline-1 {
+    width: 80%;
+}
+
+#underline-2 {
+    width: 41%;
+}
+
+#underline-3 {
+    width: 70%;
+}
+
+#underline-4 {
+    width: 100%;
+}
+
+.skills-container > p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.our-skills .image-container {
+    width: 670px;
+    height: 533px;
+    position: relative;
+}
+
+.our-skills .image-container > img {
+    position: absolute;
 }
