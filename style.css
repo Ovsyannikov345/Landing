@@ -222,3 +222,65 @@ h1 {
     height: 11px;
     background: rgba(255, 255, 255, 0.40);
 }
+
+.intro-info {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 145px;
+}
+
+.intro-info-header {
+    max-width: 385px;
+    color: #FFF;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.intro-info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.intro-info-text-1 {
+    max-width: 428px;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.intro-info-text-2 {
+    max-width: 407px;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.intro-info-text .meet-team-button {
+    width: 163px;
+    height: 43px;
+    border-radius: 4px;
+    background: #C6100F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-info-text .meet-team-button > p {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
