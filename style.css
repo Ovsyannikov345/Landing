@@ -2,12 +2,16 @@
     margin: 0;
     border: 0;
     padding: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
 }
 
 body {
     background: #000000;
     font-family: Roboto;
     font-style: normal;
+    font-weight: 400;
 }
 
 .wrapper {
@@ -42,7 +46,6 @@ body {
 .company-name > p {
     color: rgba(255, 255, 255, 0.80);
     font-size: 15px;
-    font-weight: 400;
     line-height: 18px;
     text-transform: uppercase;
     width: 107px;
@@ -55,7 +58,6 @@ body {
 .company-address > p {
     color: rgba(255, 255, 255, 0.80);
     font-size: 15px;
-    font-weight: 400;
     line-height: 18px;
     text-transform: uppercase;
     width: 134px;
@@ -112,7 +114,6 @@ body {
     color: #FFF;
     text-align: center;
     font-size: 10px;
-    font-weight: 400;
     line-height: 18px;  
 }
 
@@ -131,7 +132,6 @@ body {
     color: #FFF;
     text-align: center;
     font-size: 14px;
-    font-weight: 400;
     line-height: 19.6px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -156,7 +156,6 @@ main {
 h1 {
     color: #FFF;
     font-size: 130px;
-    font-weight: 400;
     line-height: 130px;
     text-transform: uppercase;
 }
@@ -235,7 +234,6 @@ h1 {
     max-width: 385px;
     color: #FFF;
     font-size: 80px;
-    font-weight: 400;
     line-height: 88px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -253,15 +251,14 @@ h1 {
     max-width: 428px;
     color: rgba(255, 255, 255, 0.80);
     font-size: 20px;
-    font-weight: 400;
     line-height: 24px;
+    
 }
 
 .intro-info-text-2 {
     max-width: 407px;
     color: rgba(255, 255, 255, 0.80);
     font-size: 20px;
-    font-weight: 400;
     line-height: 24px;
 }
 
@@ -279,8 +276,88 @@ h1 {
     color: #FFF;
     text-align: center;
     font-size: 14px;
-    font-weight: 400;
     line-height: 19.6px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.collaborations {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.collaborations > p {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.collaborations .logo-container {
+    max-width: 550px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    row-gap: 36px;
+}
+
+#collaboration-logo-1 {
+    width: 160px;
+    height: 53px;
+    margin-right: 86px;
+}
+
+#collaboration-logo-2 {
+    width: 45px;
+    height: 54px;
+}
+
+#collaboration-logo-3 {
+    width: 120px;
+    height: 13px;
+    margin-left: 107px;
+}
+
+#collaboration-logo-4 {
+    width: 105px;
+    height: 26px;
+    margin-right: 68px;
+}
+
+#collaboration-logo-5 {
+    width: 135px;
+    height: 61px;
+}
+
+#collaboration-logo-6 {
+    width: 100px;
+    height: 24px;
+    margin-left: 72px;
+}
+
+.collaborations .view-work-button {
+    background-color: #000000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.30);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collaborations .view-work-button > p {
+    width: 119px;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    line-height: 22px;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
