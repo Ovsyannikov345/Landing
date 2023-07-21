@@ -137,6 +137,12 @@ body {
     text-transform: uppercase;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .company-name-huge {
     border-top: 1px solid rgba(255, 255, 255, 0.15);
     padding: 145px 120px 25px 120px;
@@ -158,4 +164,40 @@ h1 {
 .company-name-huge > img {
     width: 20px;
     height: 29px;
+}
+
+.intro {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.intro-video {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.video-container {
+    position: relative;
+    margin: 0 67px 20px 250px;
+}
+
+.video-container .video {
+    width: 700px;
+    height: 513px;
+}
+
+.video-container .play-video {
+    position: absolute;
+    left: 295px;
+    top: 202px;
+}
+
+.intro-video .next-video {
+    margin-top: 207px;
+    margin-right: 127px;
+    width: 56px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0);
 }
