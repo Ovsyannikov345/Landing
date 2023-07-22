@@ -657,6 +657,7 @@ h1 {
     width: 670px;
     height: 533px;
     position: relative;
+    overflow: hidden;
 }
 
 .our-skills .image-container > img {
@@ -722,5 +723,90 @@ h1 {
 .fact-info > p {
     color: rgba(255, 255, 255, 0.80);
     font-size: 20px;
+    line-height: 24px;
+}
+
+.contact-us-section {
+    align-self: flex-start;
+    margin-top: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 100px;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.image-wrapper .image-container {
+    max-width: 452px;
+    max-height: 533px;
+    position: relative;
+    overflow: hidden;
+}
+
+.aside-rectangle {
+    background: #12141D;
+    width: 218px;
+}
+
+.form-container {
+    padding-right: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: stretch;
+    gap: 60px;
+}
+
+.form-container .section-header {
+    max-width: 494px;
+}
+
+.form {
+    box-sizing: border-box;
+    width: 495px;
+    height: 362px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.form input[type="text"] {
+    box-sizing: border-box;
+    width: 495px;
+    height: 45px;
+    padding: 11px 0px 10px 28px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: #12141D;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.form input[type="text"]::placeholder {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.form input[id="details"] {
+    height: 104px;
+    padding: 11px 0px 69px 28px;
+}
+
+.form input[type="submit"] {
+    width: 168px;
+    min-height: 43px;
+    border-radius: 4px;
+    background: #C6100F;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 700;
     line-height: 24px;
 }
