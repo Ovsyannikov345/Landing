@@ -2,17 +2,24 @@
     margin: 0;
     border: 0;
     padding: 0;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
+    overflow-x: hidden;
 }
 
 body {
     background: #000000;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    overflow: hidden;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 
 .wrapper {
@@ -145,6 +152,7 @@ main {
 }
 
 .company-name-huge {
+    max-width: 1440px;
     border-top: 1px solid rgba(255, 255, 255, 0.15);
     padding: 145px 120px 25px 120px;
     display: flex;
@@ -155,6 +163,8 @@ main {
 }
 
 h1 {
+    max-width: 1200px;
+    height: 390px;
     color: #FFF;
     font-size: 130px;
     line-height: 130px;
@@ -167,6 +177,7 @@ h1 {
 }
 
 .intro {
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -180,6 +191,7 @@ h1 {
 }
 
 .video-container {
+    height: 513px;
     position: relative;
     margin: 0 67px 20px 250px;
 }
@@ -201,9 +213,19 @@ h1 {
     width: 56px;
     height: 100px;
     background-color: rgba(255, 255, 255, 0);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-video .next-video > img {
+    width: 56px;
+    height: 100px;
 }
 
 .items-order {
+    margin-top: 10px;
     display: flex;
     padding: 10px 0px 19px 0px;
     justify-content: center;
@@ -304,7 +326,7 @@ h1 {
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     align-content: flex-start;
     row-gap: 36px;
@@ -314,6 +336,7 @@ h1 {
     width: 160px;
     height: 53px;
     margin-right: 86px;
+    margin-left: 6px;
 }
 
 #collaboration-logo-2 {
@@ -331,6 +354,7 @@ h1 {
     width: 105px;
     height: 26px;
     margin-right: 68px;
+    margin-left: 34px;
 }
 
 #collaboration-logo-5 {
@@ -389,6 +413,7 @@ h1 {
 
 .our-work-section .all-projects-container {
     width: 100%;
+    max-width: 1440px;
     height: 83px;
     background: #C6100F;
     display: flex;
@@ -423,7 +448,7 @@ h1 {
 }
 
 .experiences-section {
-    margin-top: 100px;
+    margin-top: 99px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -504,6 +529,7 @@ h1 {
 }
 
 .testimonials {
+    padding-top: 1px;
     margin-top: 150px;
     display: flex;
     flex-direction: column;
@@ -512,12 +538,15 @@ h1 {
     gap: 81px;
 }
 
+.testimonials .section-header{
+    margin-top: -1px;
+}
+
 .review-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
 }
 
 .user-review {
@@ -526,6 +555,7 @@ h1 {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    padding-bottom: 5px;
 }
 
 .user-review > img {
@@ -538,7 +568,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 21px;
+    gap: 20px;
 }
 
 .review-text {
@@ -548,6 +578,7 @@ h1 {
     font-size: 30px;
     line-height: 33px;
     text-transform: uppercase;
+    margin-top: -1px;
 }
 
 .credits {
@@ -555,7 +586,8 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 4px;
+    padding-bottom: 1px;
 }
 
 .credits > p {
@@ -572,11 +604,12 @@ h1 {
     margin-left: 120px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 100px;
 }
 
 .skills-wrapper {
+    margin-top: 76px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -685,12 +718,15 @@ h1 {
 }
 
 .facts {
+    width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .fact {
+    width: 300px;
+    height: 89px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -714,6 +750,7 @@ h1 {
 }
 
 .fact-info > h3 {
+    width: 151px;
     color: #FFF;
     font-size: 46px;
     line-height: 50px;
@@ -742,10 +779,17 @@ h1 {
 }
 
 .image-wrapper .image-container {
-    max-width: 452px;
-    max-height: 533px;
+    width: 512px;
+    height: 533px;
     position: relative;
     overflow: hidden;
+}
+
+.image-wrapper .image-container > img {
+    width: 670px;
+    height: 533px;
+    position: absolute;
+    left: 60px;
 }
 
 .aside-rectangle {
@@ -754,6 +798,8 @@ h1 {
 }
 
 .form-container {
+    margin-top: 4px;
+    margin-bottom: 4px;
     padding-right: 55px;
     display: flex;
     flex-direction: column;
@@ -801,6 +847,7 @@ h1 {
 }
 
 .form input[type="submit"] {
+    margin-left: 2px;
     width: 168px;
     min-height: 43px;
     border-radius: 4px;
@@ -853,7 +900,7 @@ h1 {
 
 .blog-content {
     box-sizing: border-box;
-    margin-top: 29px;
+    margin-top: 30px;
     padding-right: 72px;
     display: flex;
     flex-direction: column;
@@ -863,7 +910,7 @@ h1 {
 
 .blog-type-container {
     box-sizing: border-box;
-    padding: 5px 13px 5px 13px;
+    padding: 5px 18px 5px 13px;
     height: 30px;
     display: flex;
     justify-content: center;
@@ -910,7 +957,7 @@ h1 {
 }
 
 footer {
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 21px;
     width: 100%;
     display: flex;
@@ -921,7 +968,7 @@ footer {
 
 .contact-us-banner {
     width: 100%;
-    height: 170px;
+    height: 169px;
     background-color: #C6100F;
     display: flex;
     justify-content: center;
@@ -938,7 +985,7 @@ footer {
 }
 
 .footer-info {
-    margin-top: 42px;
+    margin-top: 48px;
     margin-bottom: 21px;
     max-width: 960px;
     display: flex;
