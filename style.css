@@ -1226,4 +1226,23 @@ footer {
     .logo-container {
         padding-left: 24px;
     }
+
+    .our-work-section {
+        margin-top: 95px;
+    }
+
+    .photo-container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .photo-container > img {
+        max-width: 480px;
+    }
+
+    .our-work-section .all-projects-container {
+        max-width: 480px;
+    }
 }
