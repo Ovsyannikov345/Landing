@@ -28,6 +28,10 @@ h1, h2, h3, h4, h5, h6, p, a {
     align-items: center;
 }
 
+.header {
+    width: 100%;
+}
+
 .header-container {
     margin: auto;
     display: flex;
@@ -1128,4 +1132,51 @@ footer {
 .copyright a {
     font-size: 14px;
     color: #FFF;
+}
+
+@media (max-width: 768px) {
+    * {
+        max-width: 768px;
+    }
+
+    .header-container {
+        justify-content: flex-start;
+    }
+
+    .logo-container {
+        margin-right: 27px;
+        margin-left: 13px;
+    }
+
+    .logo-container {
+        padding-left: 6px;
+    }
+    
+    .burger-menu {
+        margin: 0px;
+    }
+
+    .contact-us {
+        margin-left: 80px;
+    }
+
+    .company-name {
+        margin-left: 13px;
+        margin-right: 15px;
+    }
+
+    .main {
+        max-width: 768px;
+    }
+
+    .company-name-huge {
+        max-width: 768px;
+        padding: 145px 63px 25px 32px;
+        gap: 41px;
+    }
+
+    .company-name-huge h1 {
+        max-width: 673px;
+        height: 520px;
+    }
 }
