@@ -1218,4 +1218,12 @@ footer {
         padding-left: 50px;
         margin-top: 20px;
     }
+
+    .collaborations {
+        margin-top: 50px;
+    }
+
+    .logo-container {
+        padding-left: 24px;
+    }
 }
