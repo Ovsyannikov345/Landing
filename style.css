@@ -1245,4 +1245,19 @@ footer {
     .our-work-section .all-projects-container {
         max-width: 480px;
     }
+
+    .experiences-section {
+        width: 100%;
+        align-items: center;
+        margin-top: 94px;
+        gap: 41px;
+    }
+
+    .card-container {
+        width: 100%;
+        justify-content: center;
+        gap: 68px;
+        flex-wrap: wrap;
+        row-gap: 33px;
+    }
 }
