@@ -189,15 +189,18 @@ h1 {
 }
 
 .intro-video {
+    max-width: 1200px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .video-container {
     height: 513px;
     position: relative;
     margin: 0 67px 20px 250px;
+    overflow: hidden;
 }
 
 .video-container .video {
@@ -226,6 +229,10 @@ h1 {
 .intro-video .next-video > img {
     width: 56px;
     height: 100px;
+}
+
+.intro-video .items-order {
+    margin-left: 574px;
 }
 
 .items-order {
@@ -1178,5 +1185,27 @@ footer {
     .company-name-huge h1 {
         max-width: 673px;
         height: 520px;
+    }
+
+    .intro-video {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .video-container {
+        margin: 0 34px 9px 34px;
+    }
+
+    .intro-video .next-video {
+        margin-top: 0px;
+        margin-right: 0px;
+        order: 1;
+    }
+
+    .intro-video .items-order {
+        margin-top: 2px;
+        margin-left: 358px;
+        margin-right: 50px;
     }
 }
