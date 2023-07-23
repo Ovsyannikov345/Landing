@@ -1325,4 +1325,32 @@ footer {
         box-sizing: border-box;
         max-width: 300px;
     }
+
+    .contact-us-section {
+        margin-top: 94px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .contact-us-section .image-wrapper {
+        align-self: flex-end;
+        margin-right: 121px;
+    }
+
+    .image-wrapper .image-container > img {
+        left: -4px;
+        scale: 1.2;
+    }
+
+    .form-container {
+        margin-top: 0px;
+        gap: 40px;
+        align-self: flex-end;
+        padding-right: 121px;
+    }
+
+    .form input[type="submit"] {
+        padding-top: 3px;
+    }
 }
