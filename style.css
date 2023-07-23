@@ -1353,4 +1353,17 @@ footer {
     .form input[type="submit"] {
         padding-top: 3px;
     }
+
+    .from-blog {
+        margin-top: 90px;
+        gap: 35px;
+    }
+
+    .blogs-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 25px;
+        height: 1130px;
+    }
 }
