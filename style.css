@@ -1208,4 +1208,14 @@ footer {
         margin-left: 358px;
         margin-right: 50px;
     }
+
+    .intro-info {
+        box-sizing: border-box;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        padding-left: 50px;
+        margin-top: 20px;
+    }
 }
