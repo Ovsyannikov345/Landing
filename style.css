@@ -763,7 +763,7 @@ h1 {
 .fact-info > h3 {
     width: 151px;
     color: #FFF;
-    font-size: 46px;
+    font-size: 48px;
     line-height: 50px;
     text-transform: uppercase;
 }
@@ -1365,5 +1365,39 @@ footer {
         align-items: center;
         gap: 25px;
         height: 1130px;
+    }
+
+    footer {
+        margin-top: 92px;
+    }
+
+    .footer-info {
+        box-sizing: border-box;
+        max-width: 768px;
+        width: 100%;
+        margin-top: 23px;
+        padding-left: 64px;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: flex-start;
+        align-self: flex-start;
+    }
+
+    .contacts-container {
+        margin-left: 0px;
+        align-self: flex-start;
+        width: 100%;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .socials {
+        padding-right: 0px;
+        padding-left: 159px;
+    }
+
+    .company-contacts {
+        padding-left: 2px;
     }
 }
