@@ -147,15 +147,6 @@ h1, h2, h3, h4, h5, h6, p, a {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.contact-button:hover {
-    background: #a50d0d;
-    cursor: pointer;
-}
-
-.contact-button > a {
-    width: 104px;
     color: #FFF;
     text-align: center;
     font-size: 14px;
@@ -163,6 +154,11 @@ h1, h2, h3, h4, h5, h6, p, a {
     letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.contact-button:hover {
+    background: #a50d0d;
+    cursor: pointer;
 }
 
 main {
@@ -332,20 +328,17 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.intro-info-text .meet-team-button:hover {
-    background: #a50d0d;
-    cursor: pointer;
-}
-
-.intro-info-text .meet-team-button > p {
     color: #FFF;
     text-align: center;
     font-size: 14px;
     line-height: 19.6px;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+
+.intro-info-text .meet-team-button:hover {
+    background: #a50d0d;
+    cursor: pointer;
 }
 
 .collaborations {
@@ -419,14 +412,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.collaborations .view-work-button:hover {
-    cursor: pointer;
-    border-color: #FFF;
-}
-
-.collaborations .view-work-button > p {
     width: 119px;
     color: #FFF;
     text-align: center;
@@ -434,6 +419,11 @@ h1 {
     line-height: 22px;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+
+.collaborations .view-work-button:hover {
+    cursor: pointer;
+    border-color: #FFF;
 }
 
 .our-work-section {
@@ -473,20 +463,17 @@ h1 {
 .all-projects-button {
     background: #C6100F;
     border-bottom: 1px solid rgba(255, 255, 255, 0.30);
-}
-
-.all-projects-button:hover {
-    cursor: pointer;
-    border-color: #FFF;
-}
-
-.all-projects-button > p {
     color: #FFF;
     text-align: center;
     font-size: 13px;
     line-height: 22px;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+
+.all-projects-button:hover {
+    cursor: pointer;
+    border-color: #FFF;
 }
 
 .section-header {
