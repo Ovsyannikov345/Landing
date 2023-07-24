@@ -1467,3 +1467,49 @@ footer {
         padding-left: 2px;
     }
 }
+
+@media (max-width: 320px) {
+    * {
+        max-width: 320px;
+    }
+
+    .header-container {
+        justify-content: flex-end;
+    }
+
+    .company-address {
+        display: none;
+    }
+
+    .contact-button {
+        display: none;
+    }
+
+    .burger-menu {
+        box-sizing: border-box;
+        order: 1;
+    }
+
+    .header-container .contact-us {
+        margin-right: 7px;
+        margin-left: 0px;
+        padding-top: 2px;
+        width: 52px;
+        justify-content: flex-start;
+    }
+
+    .cart-items-number {
+        margin-left: 3px;
+    }
+
+    .logo-container {
+        box-sizing: border-box;
+        margin-right: 10px;
+        min-width: 147px;
+    }
+
+    .company-name {
+        min-width: 107px;
+        margin-right: 0px;
+    }
+} 
