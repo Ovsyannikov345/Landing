@@ -1669,4 +1669,33 @@ footer {
         font-size: 25px;
         line-height: 28px;
     }
+
+    .our-skills {
+        margin-top: 10px;
+        margin-left: -2px;
+        gap: 15px;
+    }
+
+    .skills-wrapper {
+        gap: 15px;
+    }
+
+    .skills-container {
+        padding-right: 0;
+        margin: 0 5px 0 7px;
+    }
+
+    .parameter-name {
+        width: 310px;
+    }
+
+    .our-skills .image-container {
+        height: 256px;
+    }
+
+    .our-skills .image-container > img {
+        width: 384px;
+        height: 256px;
+        object-position: 37px 0px;
+    }
 } 
