@@ -349,7 +349,7 @@ h1 {
     align-items: center;
 }
 
-.collaborations > p {
+.collaborations > h4 {
     color: #FFF;
     text-align: center;
     font-size: 20px;
