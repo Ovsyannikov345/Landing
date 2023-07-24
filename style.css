@@ -1698,4 +1698,13 @@ footer {
         height: 256px;
         object-position: 37px 0px;
     }
+
+    .fun-facts {
+        margin-top: 30px;
+        gap: 20px;
+    }
+
+    .fun-facts-header {
+        padding-left: 2px;
+    }
 } 
