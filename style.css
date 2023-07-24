@@ -1515,7 +1515,7 @@ footer {
 
     .company-name-huge {
         max-width: 320px;
-        padding: 16px 0 25px 0;
+        padding: 16px 0 0 0;
         gap: 9px;
     }
 
@@ -1528,5 +1528,40 @@ footer {
 
     .company-name-huge img {
         margin-left: 6px;
+    }
+
+    .intro {
+        margin-top: 15px;
+    }
+
+    .intro-video {
+        max-width: 320px;
+    }
+
+    .video-container {
+        margin: 0 15px 0 14px;
+        height: auto;
+    }
+
+    .video-container .video {
+        width: 100%;
+        height: auto;
+    }
+
+    .video-container .play-video {
+        width: 45px;
+        height: 45px;
+        left: 123px;
+        top: 85px;
+    }
+
+    .intro-video .items-order {
+        margin-top: 14px;
+        margin-left: 134px;
+        margin-right: 45px;
+    }
+
+    .intro-video .next-video {
+        margin-top: 13px;
     }
 } 
