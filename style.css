@@ -1646,4 +1646,27 @@ footer {
     .card-container {
         row-gap: 20px;
     }
+
+    .testimonials {
+        margin-top: 30px;
+        gap: 25px;
+    }
+
+    .testimonials .section-header {
+        font-size: 43px;
+        line-height: 43px;
+    }
+
+    .user-review {
+        gap: 27px;
+    }
+
+    .review {
+        gap: 24px;
+    }
+
+    .review-text {
+        font-size: 25px;
+        line-height: 28px;
+    }
 } 
