@@ -1604,4 +1604,26 @@ footer {
         margin-top: 15px;
         margin-left: 2px;
     }
+
+    .our-work-header {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .our-work-section {
+        margin-top: 21px;
+    }
+
+    .our-work-section .photo-container {
+        margin-top: -1px;
+    }
+
+    .photo-container > img {
+        max-width: 320px;
+        height: 426px;
+    }
+
+    .all-projects-button {
+        padding-left: 1px;
+    }
 } 
