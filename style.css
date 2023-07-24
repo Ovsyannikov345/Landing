@@ -1579,4 +1579,29 @@ footer {
         max-width: 292px;
         gap: 5px;
     }
+
+    .collaborations {
+        margin-top: 25px;
+    }
+
+    .collaborations .logo-container {
+        padding: 0 2px 0 0;
+        margin-top: 10px;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    #collaboration-logo-1,
+    #collaboration-logo-2,
+    #collaboration-logo-3,
+    #collaboration-logo-4,
+    #collaboration-logo-5,
+    #collaboration-logo-6 {
+        margin: 0;
+    }
+
+    .collaborations .view-work-button {
+        margin-top: 15px;
+        margin-left: 2px;
+    }
 } 
