@@ -1626,4 +1626,24 @@ footer {
     .all-projects-button {
         padding-left: 1px;
     }
+
+    .section-header {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .experiences-section {
+        margin-top: 31px;
+        gap: 19px;
+    }
+
+    .experiences-section .section-header {
+        font-size: 45px;
+        line-height: 45px;
+        margin-left: 11px;
+    }
+
+    .card-container {
+        row-gap: 20px;
+    }
 } 
