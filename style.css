@@ -1753,4 +1753,26 @@ footer {
         margin-left: 1px;
         padding-top: 2px;
     }
+
+    .from-blog {
+        margin-top: 26px;
+        gap: 14px;
+    }
+
+    .blogs-container {
+        gap: 15px;
+    }
+
+    .blog {
+        max-width: 316px;
+    }
+
+    .blog > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .blog-content {
+        padding-right: 0;
+    }
 } 
