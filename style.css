@@ -1512,4 +1512,21 @@ footer {
         min-width: 107px;
         margin-right: 0px;
     }
+
+    .company-name-huge {
+        max-width: 320px;
+        padding: 16px 0 25px 0;
+        gap: 9px;
+    }
+
+    .company-name-huge h1 {
+        font-size: 60px;
+        line-height: 60px;
+        max-width: 310px;
+        max-height: 238px;
+    }
+
+    .company-name-huge img {
+        margin-left: 6px;
+    }
 } 
