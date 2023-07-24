@@ -88,6 +88,11 @@ h1, h2, h3, h4, h5, h6, p, a {
     align-items: center;
 }
 
+.burger-menu:hover {
+    background-color: #252525;
+    cursor: pointer;
+}
+
 .burger-menu > img {
     width: 34px;
     height: 16px;
@@ -121,6 +126,11 @@ h1, h2, h3, h4, h5, h6, p, a {
     align-items: center;
 }
 
+.cart-items-number:hover {
+    background: #a50d0d;
+    cursor: pointer;
+}
+
 .cart-items-number > p {
     width: 7px;
     color: #FFF;
@@ -139,7 +149,12 @@ h1, h2, h3, h4, h5, h6, p, a {
     align-items: center;
 }
 
-.contact-button > p {
+.contact-button:hover {
+    background: #a50d0d;
+    cursor: pointer;
+}
+
+.contact-button > a {
     width: 104px;
     color: #FFF;
     text-align: center;
@@ -147,6 +162,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     line-height: 19.6px;
     letter-spacing: 1px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 main {
@@ -212,6 +228,13 @@ h1 {
     position: absolute;
     left: 295px;
     top: 202px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.video-container .play-video:hover {
+    scale: 1.2;
+    transition: 0.3s;
 }
 
 .intro-video .next-video {
@@ -224,6 +247,11 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.intro-video .next-video > img:hover {
+    opacity: 0.9;
+    cursor: pointer;
 }
 
 .intro-video .next-video > img {
@@ -304,6 +332,11 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.intro-info-text .meet-team-button:hover {
+    background: #a50d0d;
+    cursor: pointer;
 }
 
 .intro-info-text .meet-team-button > p {
@@ -388,6 +421,11 @@ h1 {
     align-items: center;
 }
 
+.collaborations .view-work-button:hover {
+    cursor: pointer;
+    border-color: #FFF;
+}
+
 .collaborations .view-work-button > p {
     width: 119px;
     color: #FFF;
@@ -435,6 +473,11 @@ h1 {
 .all-projects-button {
     background: #C6100F;
     border-bottom: 1px solid rgba(255, 255, 255, 0.30);
+}
+
+.all-projects-button:hover {
+    cursor: pointer;
+    border-color: #FFF;
 }
 
 .all-projects-button > p {
@@ -869,6 +912,11 @@ h1 {
     line-height: 24px;
 }
 
+.form input[type="submit"]:hover {
+    background: #a50d0d;
+    cursor: pointer;
+}
+
 .from-blog {
     margin-top: 150px;
     width: 1200px;
@@ -967,6 +1015,11 @@ h1 {
     text-transform: uppercase;
 }
 
+.read-more:hover {
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.60);
+}
+
 footer {
     margin-top: 100px;
     margin-bottom: 21px;
@@ -1043,6 +1096,12 @@ footer {
     text-transform: uppercase;
 }
 
+.links a:hover {
+    cursor: pointer;
+    text-decoration:underline;
+    text-decoration-color: #FFF;
+}
+
 #home {
     width: 48px;
 }
@@ -1086,6 +1145,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     gap: 9px;
+    cursor: pointer;
 }
 
 .social-contact > img {
@@ -1139,6 +1199,12 @@ footer {
 .copyright a {
     font-size: 14px;
     color: #FFF;
+}
+
+.copyright a:hover {
+    cursor: pointer;
+    text-decoration:underline;
+    text-decoration-color: #FFF;
 }
 
 @media (max-width: 768px) {
