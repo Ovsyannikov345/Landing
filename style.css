@@ -1564,4 +1564,19 @@ footer {
     .intro-video .next-video {
         margin-top: 13px;
     }
+
+    .intro-info-header {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .intro-info {
+        padding-left: 14px;
+        gap: 5px;
+    }
+
+    .intro-info-text {
+        max-width: 292px;
+        gap: 5px;
+    }
 } 
